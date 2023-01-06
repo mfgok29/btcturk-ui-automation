@@ -29,7 +29,7 @@ public class SameResultTest extends TestBase{
 
     @Test
     @Parameters("keyword")
-    public void if_ile_same_bulma(@Optional String keyword) throws IOException {
+    public void when_google_and_yandex_results_when_write_excel(@Optional String keyword) throws IOException {
         if (keyword==null){
             keyword="araba";
         }
